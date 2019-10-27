@@ -24,9 +24,9 @@ a:hover {
 }
 .box-img{
   margin: auto;
-  border-radius: 5%;
+  border-radius: 0%;
   width: 20rem;
-  height: 20rem;
+  height: 33rem;
 }
 .p-r {
   position: relative;
