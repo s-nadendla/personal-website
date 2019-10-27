@@ -1,28 +1,257 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
-    <title>Sai Nadendla</title>
-    <div id="background">
-    <img src="milky-way-3705803.jpg" class="stretch" alt="" />
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sai Nadendla</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="assets/favicon.png" rel="icon">
+  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+  <!--/ NavBar Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">Sai Nadendla</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item-resume">
+            <a class="btn btn-primary btn-md mt-0 ml-md-2" target="_blank" href="Resume.pdf" role="button">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ NavBar End /-->
+
+  <!--/ Home /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(assets/main-bg.jpg)">
+    <div class="overlay-intro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">Sai Nadendla</h1>
+          <p class="intro-subtitle"><span>UCLA Computer Science and Engineering</span></p>
+          <a href="https://linkedin.com/in/sainadendla/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="mailto:saignadendla@gmail.com"><i class="fa fa-envelope"aria-hidden="true"></i></a>
+          <a href="https://github.com/s-nadendla/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4 ml-md-2" href="#about" role="button">Resume</a> -->
+        </div>
+      </div>
+    </div>
   </div>
-  </head>
-  <body>
-<div class="box">
-  <img src="linkedinProfile.jpg" alt="" class="box-img">
-  <h1>
-  SAI NADENDLA</h1>
-  <h4>
-  UCLA COMPUTER SCIENCE</h4>
-  <button type="button" onclick="window.location.href = 'Resume.pdf';">Resume</button>
-<ul>
-  <li><a href="https://linkedin.com/in/sainadendla/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-  <li ><a href="mailto:saignadendla@gmail.com"><i class="fa fa-envelope-square"aria-hidden="true"></i></a></li>
-  <li><a href="https://github.com/s-nadendla/"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-</ul>
-</div>
+  <!--/ Home End /-->
+
+  <!--/ About /-->
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+        <div class="title-box text-center">
+            <h3 class="title-a">About</h3>
+            <div class="line-mf"></div>
+          </div>
+          <div class="box-shadow-full">
+              <div class="row">
+                  <div class="col-lg-6">
+                  <div class="about-me pt-4 pb-pt-md-0">
+                    <p class="lead">
+                      Hi, I'm Sai, a sophomore at UCLA studying Computer Science and Engineering.
+                    </p>
+                    <p class="lead">
+                      Over this past summer, I was a software engineer intern for Ciena where I worked on a productivity web app 
+                      that provides a suite of sales engineer tools. I deployed multiple fullstack features using React and Django.
+                      I also reconstructed the web app's e2e automated testing framework using Selenium and in the process removed thousands of lines of code.
+                    </p>
+                    <p class="lead">
+                        In the past, I have interned for Stylify where I built cross-platform mobile features for their eCommerce app using React Native and
+                        for Sonoma State University where I conducted machine learning research using TensorFlow.
+                      </p>
+                  </div>
+
+            </div>
+            <div class="d-none d-lg-flex col-lg-6 flex-column border-left">
+
+                <img src="assets/linkedinProfile.jpg" alt="" class="box-img">
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ About End /-->
+
+
+  <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Selected Projects
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="work-box">
+                <div class="work-img">
+                  <img src="assets/myCloset.png " alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">myCloset</h2>
+                      <p>
+                          iOS app that allows users to rent out unused clothes in their closets to others. Winner of the
+                           Best Mobile Hack award at UCLA exclusive hackathon. 
+                        </p>
+                      <div class="w-more">
+                        <span class="w-ctegory">iOS, Swift</span> 
+                        <a href="https://github.com/s-nadendla/myCloset" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://devpost.com/software/mycloset-ltfok9" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+              <div class="work-box">
+                  <div class="work-img">
+                    <img src="assets/midknight.png " alt="" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h2 class="w-title">Midknight</h2>
+                        <p>
+                            iOS app that helps users maintain healthy sleep habits by alerting them when it is time
+                             for bed and rewarding them for not using their phone throughout the night.
+                          </p>
+                        <div class="w-more">
+                          <span class="w-ctegory">iOS, Swift</span> 
+                          <a href="https://github.com/s-nadendla/midknight" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                          <a href="https://apps.apple.com/us/app/midknight-sleep-habit-tracker/id1436688991" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="work-box">
+                    <div class="work-img">
+                      <img src="assets/posted2.png " alt="" class="img-fluid">
+                    </div>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <h2 class="w-title">Posted</h2>
+                          <p>
+                              iOS app created during AngelHack hackathon that determines the cheapest shipping
+                              carrier for a given package.
+                            </p>
+                          <div class="w-more">
+                            <span class="w-ctegory">iOS, Swift</span> 
+                          </div>
+                        </div>
+    
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+
+          
+        </div>
+      </div>
+    </section>
+    <!--/ Section Portfolio End /-->
+
+
+  <section id="contact" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">Contact</h3>
+            <h4 class="subtitle-a">Don't Hesitate to Reach Out!</h3>
+
+            <div class="line-mf"></div>
+          </div>
+        </div>
+        <div class="container d-flex flex-column   align-items-center justify-content-center">
+            <form action="https://formspree.io/xzbpvgvk" method="POST">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name...">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email...">
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Your Message..." style="height:12rem"></textarea>
+          
+              <div class=" d-flex flex-column   align-items-center justify-content-center">
+                  <input type="submit" value="Send">
+              </div>
+          
+            </form>
+          </div>
+
+
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+  <!-- Custom Javascript File -->
+  <script src="main.js"></script>
+
 </body>
 </html>
