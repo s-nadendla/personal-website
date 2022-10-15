@@ -1,2 +1,2 @@
 # Personal Website
-www.sainadendla.com
+https://s-nadendla.github.io/personal-website/
